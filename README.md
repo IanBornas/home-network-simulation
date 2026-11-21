@@ -1,4 +1,4 @@
-# 🌐 SOHO Home Network Simulation (Cisco Packet Tracer)
+#  SOHO Home Network Simulation (Cisco Packet Tracer)
 
 A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tracer**[cite: 6]. This project demonstrates dual-subnet IPv4 addressing, Layer 2 switching, Layer 3 inter-subnet routing, automated DHCP IP allocation, and end-to-end ICMP connectivity verification.
 
@@ -6,7 +6,7 @@ A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tr
 
 ---
 
-## 🏗️ Architecture & Hardware Used
+##  Architecture & Hardware Used
 * **Router:** Cisco 1941 ISR (`PLDTWIFI`) — Handles WAN/LAN routing and DHCP server leases[cite: 1, 6].
 * **Switch:** Cisco Catalyst 2960-24TT (`SW1`) — Performs Layer 2 frame forwarding across VLAN 1[cite: 2, 6].
 * **Modem / ISP:** DSL Modem connected to ISP Cloud (`192.168.10.0/24` WAN segment)[cite: 1, 6].
@@ -14,7 +14,7 @@ A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tr
 
 ---
 
-## 📋 IP Addressing & Interface Table
+##  IP Addressing & Interface Table
 
 | Device | Interface | IPv4 Address | Subnet Mask | Default Gateway | Role |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -27,7 +27,7 @@ A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tr
 
 ---
 
-## ⚙️ Key Configuration Highlights
+##  Key Configuration Highlights
 
 Full device configurations are available in the [`/configs`](configs/) directory.
 
