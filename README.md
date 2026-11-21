@@ -2,7 +2,7 @@
 
 A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tracer**[cite: 6]. This project demonstrates dual-subnet IPv4 addressing, Layer 2 switching, Layer 3 inter-subnet routing, automated DHCP IP allocation, and end-to-end ICMP connectivity verification.
 
-![Network Topology](screenshots/01-topology-overview.png)
+![Network Topology](screenshots/01-topology-overview.PNG)
 
 ---
 
