@@ -1,4 +1,4 @@
-# 🌐 SOHO Home Network Simulation (Cisco Packet Tracer)
+#  SOHO Home Network Simulation (Cisco Packet Tracer)
 
 A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tracer**. This project demonstrates dual-subnet IPv4 addressing, Layer 2 switching, Layer 3 inter-subnet routing, automated DHCP IP allocation, and end-to-end ICMP connectivity verification.
 
@@ -6,7 +6,7 @@ A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tr
 
 ---
 
-## 🏗️ Architecture & Hardware Used
+##  Architecture & Hardware Used
 
 * **Router:** Cisco 1941 ISR (`PLDTWIFI`) — Handles WAN/LAN routing and DHCP server leases.
 * **Switch:** Cisco Catalyst 2960-24TT (`SW1`) — Performs Layer 2 frame forwarding across VLAN 1.
@@ -15,7 +15,7 @@ A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tr
 
 ---
 
-## 📋 IP Addressing & Interface Table
+##  IP Addressing & Interface Table
 
 | Device | Interface | IPv4 Address | Subnet Mask | Default Gateway | Role |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -28,7 +28,7 @@ A simulated Small Office / Home Office (SOHO) network built in **Cisco Packet Tr
 
 ---
 
-## ⚙️ Device Configurations (Cisco IOS)
+##  Device Configurations (Cisco IOS)
 
 ### 1. Cisco 1941 Router (`PLDTWIFI`)
 
@@ -91,7 +91,7 @@ copy running-config startup-config
 
 ---
 
-## ✅ Verification & Testing Outputs
+##  Verification & Testing Outputs
 
 ### 1. Router Interface Status (`show ip interface brief`)
 
@@ -127,7 +127,7 @@ Executed from **Ian's PC** (`192.168.1.2`):
 
 ---
 
-## 💡 Key Engineering Takeaways
+##  Key  Takeaways
 
 * **Subnet Isolation:** Router interfaces require distinct IP subnets (`192.168.10.0/24` on WAN vs. `192.168.1.0/24` on LAN) to route traffic without overlapping subnet conflicts.
 * **Layer 2 vs. Layer 3 Behavior:** Physical access ports on the 2960 switch remain `unassigned` at Layer 3 while forwarding Ethernet frames via dynamic MAC learning at Layer 2.
@@ -135,7 +135,7 @@ Executed from **Ian's PC** (`192.168.1.2`):
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 1. Download [`HomeNetwork-Bornas.pkt`](HomeNetwork-Bornas.pkt) from this repository.
 2. Open the file using **Cisco Packet Tracer 9.0.1** (or newer).
